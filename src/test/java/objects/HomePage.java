@@ -15,10 +15,22 @@ public class HomePage {
         PageFactory.initElements(factory, this);
     }
 
-    @FindBy(xpath = ".//li[@class='animate-delay']")
-    public WebElement registerButton;
-
-    public void clickRegister() {
-        registerButton.click();
+    @FindBy(xpath = ".//input[@type='text']")
+    public WebElement usernameField;
+    public void inputUsername(String username) {
+        usernameField.sendKeys(username);
     }
+
+    @FindBy(xpath=".//input[@type='password']")
+    public WebElement passwordField;
+    public void inputPassword(String password) {
+        passwordField.sendKeys(password);
+    }
+
+    @FindBy(xpath=".//input[@type=\'submit\']")
+    public WebElement loginBtn;
+    public void clickLogin() {
+        loginBtn.click();
+    }
+
 }

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="" />
+    <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/objects/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/objects/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modules/RegisterTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/RegisterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/modules/RegisterTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/RegisterPage.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +39,8 @@
   </component>
   <component name="ProjectId" id="1RHx68mh0WXMn40ACRql6Dti5Uy" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutoDemo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -43,8 +59,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegisterTestCases.registerNullInfo">
-    <configuration name="RegisterTestCases (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTcs.navigateCartPage">
+    <configuration name="LoginTcs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -53,7 +69,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -61,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.loginSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -70,25 +86,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegisterTestCases.inputRegisterInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
-      <option name="METHOD_NAME" value="inputRegisterInfo" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
+      <option name="METHOD_NAME" value="loginSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTestCases.registerNullInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.navigateCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +104,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
-      <option name="METHOD_NAME" value="registerNullInfo" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
+      <option name="METHOD_NAME" value="navigateCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -114,7 +113,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTestCases.submitEmptyRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.navigateCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
+      <option name="METHOD_NAME" value="navigateCartPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTestCases.inputUsernameSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -124,7 +141,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
       <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
-      <option name="METHOD_NAME" value="submitEmptyRegister" />
+      <option name="METHOD_NAME" value="inputUsernameSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegisterTestCases.registerNullInfo" />
-        <item itemvalue="TestNG.RegisterTestCases" />
-        <item itemvalue="TestNG.RegisterTestCases.inputRegisterInfo" />
-        <item itemvalue="TestNG.RegisterTestCases.submitEmptyRegister" />
-        <item itemvalue="TestNG.RegisterTestCases (1)" />
+        <item itemvalue="TestNG.LoginTcs.navigateCartPage" />
+        <item itemvalue="TestNG.LoginTcs.loginSuccessful" />
+        <item itemvalue="TestNG.LoginTcs.navigateCart" />
+        <item itemvalue="TestNG.LoginTcs" />
+        <item itemvalue="TestNG.RegisterTestCases.inputUsernameSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +171,18 @@
       <updated>1569337644607</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
