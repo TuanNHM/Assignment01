@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RHx68mh0WXMn40ACRql6Dti5Uy" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Assignment01\Drivers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.RegisterTestCases.registerNullInfo">
+    <configuration name="RegisterTestCases (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTestCases.inputRegisterInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="METHOD_NAME" value="inputRegisterInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTestCases.registerNullInfo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="METHOD_NAME" value="registerNullInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTestCases.submitEmptyRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
+      <option name="METHOD_NAME" value="submitEmptyRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RegisterTestCases.registerNullInfo" />
+        <item itemvalue="TestNG.RegisterTestCases" />
+        <item itemvalue="TestNG.RegisterTestCases.inputRegisterInfo" />
+        <item itemvalue="TestNG.RegisterTestCases.submitEmptyRegister" />
+        <item itemvalue="TestNG.RegisterTestCases (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="" />
+      <created>1569337644607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569337644607</updated>
+    </task>
+    <servers />
+  </component>
+</project>
