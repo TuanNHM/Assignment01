@@ -17,20 +17,22 @@ public class HomePage {
 
     @FindBy(xpath = ".//input[@type='text']")
     public WebElement usernameField;
+    @FindBy(xpath = ".//input[@type='password']")
+    public WebElement passwordField;
+    @FindBy(xpath = ".//input[@type=\'submit\']")
+    public WebElement loginBtn;
+
     public void inputUsername(String username) {
         usernameField.sendKeys(username);
     }
 
-    @FindBy(xpath=".//input[@type='password']")
-    public WebElement passwordField;
     public void inputPassword(String password) {
+
         passwordField.sendKeys(password);
     }
 
-    @FindBy(xpath=".//input[@type=\'submit\']")
-    public WebElement loginBtn;
     public void clickLogin() {
+
         loginBtn.click();
     }
-
 }

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modules/TestTuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
