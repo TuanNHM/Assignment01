@@ -15,15 +15,17 @@ public class CartPage {
         PageFactory.initElements(factory, this);
     }
 
-    @FindBy(xpath=".//a[@class='btn_action checkout_button']")
+    @FindBy(xpath = ".//a[@class='btn_action checkout_button']")
     public WebElement checkoutBtn;
-    public void displayCheckoutBtn(){
+
+    @FindBy(xpath = ".//a[@class='btn_secondary']")
+    public WebElement continueBtn;
+
+    public void displayCheckoutBtn() {
         checkoutBtn.isDisplayed();
     }
 
-    @FindBy(xpath=".//a[@class='btn_secondary']")
-    public WebElement continueBtn;
-    public void clickContinueBtn(){
+    public void clickContinueBtn() {
         continueBtn.click();
     }
 }

@@ -1,9 +1,12 @@
 package modules;
 
+import constants.AccountsInfo;
+import constants.AllMessages;
 import objects.CartPage;
 import objects.HomePage;
 import objects.ProductPage;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -21,27 +24,18 @@ public class LoginTcs {
     @Test
     public static void loginSuccessful() throws InterruptedException {
         HomePage homepage = new HomePage(driver);
+        ProductPage productpage = new ProductPage(driver);
+
         //Login successful
-        homepage.inputUsername("standard_user");
-        homepage.inputPassword("secret_sauce");
+        homepage.inputUsername(AccountsInfo.USERNAME);
+        homepage.inputPassword(AccountsInfo.PASSWORD);
         homepage.clickLogin();
         Thread.sleep(5000);
-        System.out.println("Login Successful: Pass");
-        ProductPage productpage = new ProductPage(driver);
-        //Verify accessing on Product page
-        productpage.displayProductLabel();
-        System.out.println("You are on Product page: Pass");
-        //Verify accessing on Cart page
-        productpage.clickCartBtn();
-        Thread.sleep(5000);
-        CartPage cartpage = new CartPage(driver);
-        cartpage.displayCheckoutBtn();
-        System.out.println("You are on Cart page: Pass");
-        //Back to Product page
-        cartpage.clickContinueBtn();
-        Thread.sleep(5000);
-        productpage.displayProductLabel();
-        System.out.println("You are back to Product page: Pass");
+
+        productpage.clickAddToCartBtn(3);
+
+        Assert.assertTrue(productpage.checkOpenMenuIsDisplayed());
+        Assert.assertEquals(productpage.getProductText(), AllMessages.PRODUCT_TEXT);
     }
 
     @AfterTest
