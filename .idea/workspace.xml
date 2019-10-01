@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/AccountsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/constants/AllMessages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/config/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modules/TestTuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objects/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/objects/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/ProductPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objects/CartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objects/ProductPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTcs.loginSuccessful">
+  <component name="RunManager" selected="TestNG.LoginTcs.submitLogin">
     <configuration name="LoginTcs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
@@ -93,24 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTcs.navigateCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
-      <option name="METHOD_NAME" value="navigateCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTcs.navigateCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
@@ -129,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTestCases.inputUsernameSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.submitLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -138,9 +117,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.RegisterTestCases" />
-      <option name="METHOD_NAME" value="inputUsernameSuccessful" />
+      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
+      <option name="METHOD_NAME" value="submitLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTuan" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.TestTuan" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTcs.loginSuccessful" />
+        <item itemvalue="TestNG.LoginTcs.submitLogin" />
         <item itemvalue="TestNG.LoginTcs" />
+        <item itemvalue="TestNG.TestTuan" />
+        <item itemvalue="TestNG.LoginTcs.loginSuccessful" />
         <item itemvalue="TestNG.LoginTcs.navigateCartPage" />
-        <item itemvalue="TestNG.LoginTcs.navigateCart" />
-        <item itemvalue="TestNG.RegisterTestCases.inputUsernameSuccessful" />
       </list>
     </recent_temporary>
   </component>
