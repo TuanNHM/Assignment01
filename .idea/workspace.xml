@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36bf234d-f665-4053-a137-a4a247cdd11a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/config/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modules/TestTuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/constants/AllMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/AllMessages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/config/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/config/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/LoginTcs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/objects/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/objects/ProductPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/constants/AllMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/constants/AllMessages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/config/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/config/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/modules/LoginTcs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/objects/ProductPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/objects/ProductPage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTcs.submitLogin">
+  <component name="RunManager" selected="TestNG.LoginTcs.clickAdd2CartSuccessful">
     <configuration name="LoginTcs" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
@@ -72,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTcs.loginSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.clickAdd2CartSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
       <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
-      <option name="METHOD_NAME" value="loginSuccessful" />
+      <option name="METHOD_NAME" value="clickAdd2CartSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTcs.navigateCartPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTcs.logInOutSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Assignment01" />
       <extension name="coverage">
         <pattern>
@@ -100,25 +105,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="modules" />
       <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
-      <option name="METHOD_NAME" value="navigateCartPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTcs.submitLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modules.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modules" />
-      <option name="MAIN_CLASS_NAME" value="modules.LoginTcs" />
-      <option name="METHOD_NAME" value="submitLogin" />
+      <option name="METHOD_NAME" value="logInOutSuccessful" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,13 +130,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTuan.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modules.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modules" />
+      <option name="MAIN_CLASS_NAME" value="modules.TestTuan" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTcs.submitLogin" />
+        <item itemvalue="TestNG.LoginTcs.clickAdd2CartSuccessful" />
+        <item itemvalue="TestNG.LoginTcs.logInOutSuccessful" />
         <item itemvalue="TestNG.LoginTcs" />
         <item itemvalue="TestNG.TestTuan" />
-        <item itemvalue="TestNG.LoginTcs.loginSuccessful" />
-        <item itemvalue="TestNG.LoginTcs.navigateCartPage" />
+        <item itemvalue="TestNG.TestTuan.test2" />
       </list>
     </recent_temporary>
   </component>
