@@ -55,4 +55,15 @@ public class LoginTcs extends TestBase {
         Thread.sleep(5000);
         Assert.assertTrue(homepage.checkLoginBtnIsDisplayed());
     }
+
+    //Assignment 03
+    @Test
+    public static void add2CartSuccessful() throws InterruptedException {
+        ProductPage productpage = new ProductPage(driver);
+        submitLogin();
+
+        productpage.clickAddToCartBtn(0);
+        productpage.clickAddToCartBtn(4);
+        Assert.assertEquals(productpage.getCartTotalText(), AllMessages.CARTNUMBER_TEXT);
+    }
 }

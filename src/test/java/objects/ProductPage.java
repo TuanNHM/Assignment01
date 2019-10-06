@@ -31,6 +31,8 @@ public class ProductPage {
     public List<WebElement> addToCartBtn;
     @FindBy(xpath = ".//button[@class='btn_secondary btn_inventory']")
     public WebElement removeBtn;
+    @FindBy(xpath = ".//span[@class='fa-layers-counter shopping_cart_badge']")
+    public WebElement cartTotalNumber;
 
     public boolean checkOpenMenuIsDisplayed() {
         return openMenu.isEnabled();
@@ -55,4 +57,6 @@ public class ProductPage {
     public String getRemoveBtnText() {
         return removeBtn.getText();
     }
+
+    public String getCartTotalText(){return cartTotalNumber.getText();}
 }
