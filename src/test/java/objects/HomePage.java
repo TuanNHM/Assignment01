@@ -25,14 +25,17 @@ public class HomePage {
     public void inputUsername(String username) {
         usernameField.sendKeys(username);
     }
+    public String getUsernameText(){return usernameField.getText();}
 
     public void inputPassword(String password) {
-
         passwordField.sendKeys(password);
     }
+    public String getPasswordText(){return passwordField.getText();}
 
     public void clickLogin() {
-
         loginBtn.click();
     }
+    public String getLoginBtnText(){return loginBtn.getText();}
+    public boolean checkLoginBtnIsDisplayed(){return loginBtn.isDisplayed();}
+
 }

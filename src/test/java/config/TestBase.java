@@ -1,5 +1,8 @@
 package config;
 
+import constants.AccountsInfo;
+import objects.HomePage;
+import objects.ProductPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -7,6 +10,7 @@ import supports.CommonFunctions;
 
 public class TestBase {
     public static WebDriver driver;
+
     @BeforeMethod
     public static void callURL() {
         driver = CommonFunctions.callBrowser("Chrome");

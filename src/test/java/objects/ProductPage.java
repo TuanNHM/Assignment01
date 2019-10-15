@@ -23,36 +23,40 @@ public class ProductPage {
     public WebElement productLabel;
     @FindBy(xpath = ".//button[.='Open Menu']")
     public WebElement openMenu;
-    @FindBy(xpath=".//div[@class='product_label']")
+    @FindBy(xpath = ".//a[@href='./index.html']")
+    public WebElement logoutBtn;
+    @FindBy(xpath = ".//div[@class='product_label']")
     public WebElement productText;
     @FindBy(xpath = ".//button[@class='btn_primary btn_inventory']")
     public List<WebElement> addToCartBtn;
-
-    public void displayCartBtn() {
-        cartBtn.isDisplayed();
-    }
-
-    public void clickCartBtn() {
-        cartBtn.click();
-    }
-
-    public void displayProductLabel() {
-        productLabel.isDisplayed();
-    }
+    @FindBy(xpath = ".//button[@class='btn_secondary btn_inventory']")
+    public WebElement removeBtn;
+    @FindBy(xpath = ".//span[@class='fa-layers-counter shopping_cart_badge']")
+    public WebElement cartTotalNumber;
 
     public boolean checkOpenMenuIsDisplayed() {
         return openMenu.isEnabled();
     }
 
-    public boolean checkCartIconIsDisplayed(){
-        return cartBtn.isEnabled();
+    public void clickOpenMenu() {
+        openMenu.click();
     }
 
-    public String getProductText(){
+    public void clickLogoutBtn() {
+        logoutBtn.click();
+    }
+
+    public String getProductText() {
         return productText.getText();
     }
 
-    public void clickAddToCartBtn(int whichButton){
+    public void clickAddToCartBtn(int whichButton) {
         addToCartBtn.get(whichButton).click();
     }
+
+    public String getRemoveBtnText() {
+        return removeBtn.getText();
+    }
+
+    public String getCartTotalText(){return cartTotalNumber.getText();}
 }
